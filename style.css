@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 80px !important;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#brands{
+    border: 1px solid red;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:0px) and (max-width:2220px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
