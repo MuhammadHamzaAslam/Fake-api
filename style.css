@@ -12,6 +12,7 @@ img{
 #main{
     display: flex;
     flex-wrap: wrap;
+    /* height: 1000vh; */
 }
 #brands{
     border: 1px solid red;
@@ -27,4 +28,46 @@ img{
         justify-content: center;
         align-items: center;
     }
+}
+#top{
+    height: 18px;
+    font-size: 12px !important;
+}
+.d1:hover{
+    color: blue !important;
+}
+#main_1{
+    background-color: #F7F8F8;
+    /* position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0; */
+}
+select{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 650px;
+    height: 40px; 
+    border: 2px solid black;
+    /* border-radius: 5px; */
+}
+#btn1{
+    background-color: #002F34;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 5px; */
+    margin-left: -5px;
+    border: none;
+}
+.Login{
+    color: #002F34 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Login:hover{
+   text-decoration: none;
 }
